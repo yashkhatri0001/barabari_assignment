@@ -1,0 +1,97 @@
+{
+	"info": {
+		"_postman_id": "c7d578f6-3dff-4839-88eb-1a77d5a887a9",
+		"name": "Voice Evaluation Microservice",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37444919"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "audio",
+							"type": "file",
+							"src": "postman-cloud:///1f061b39-44a6-4870-bad9-885b1c2e2eb8"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/transcribe",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"transcribe"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "audio",
+							"type": "file",
+							"src": "postman-cloud:///1f061b74-1b44-4cd0-b004-60b18c206dc1"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/transcribe",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"transcribe"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "audio",
+							"type": "file",
+							"src": "postman-cloud:///1f061b7c-820a-4f20-831c-6ab4d4c16c35"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/transcribe",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"transcribe"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
